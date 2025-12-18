@@ -1,0 +1,67 @@
+# Binários compilados / executáveis
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+build/
+
+# Arquivos de teste
+*.test
+*.out
+coverage.txt
+*.prof
+
+# Arquivos de dependências Go
+vendor/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+nohup.out
+
+# Arquivos temporários
+tmp/
+temp/
+*.tmp
+# Docs
+docs/
+# Dados de desenvolvimento Docker/Redis
+*.rdb
+dump.rdb
+appendonly.aof
+
+# Arquivos de sistema operacional
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Arquivos de cobertura
+coverage.html
+coverage.out
+c.out
+
+# Arquivos de debug
+__debug_bin
+debug
+debug.test
+
+# Air (live reload para Go)
+tmp/
+
+#
